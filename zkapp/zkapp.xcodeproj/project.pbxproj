@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A8EFC21EA790B4009952AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8EFC11EA790B4009952AF /* main.m */; };
+		75A8EFC51EA790B4009952AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8EFC41EA790B4009952AF /* AppDelegate.m */; };
+		75A8EFC81EA790B4009952AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8EFC71EA790B4009952AF /* ViewController.m */; };
+		75A8EFCB1EA790B4009952AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A8EFC91EA790B4009952AF /* Main.storyboard */; };
+		75A8EFCD1EA790B4009952AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A8EFCC1EA790B4009952AF /* Assets.xcassets */; };
+		75A8EFD01EA790B4009952AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A8EFCE1EA790B4009952AF /* LaunchScreen.storyboard */; };
+		75A8EFDB1EA790B4009952AF /* zkappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8EFDA1EA790B4009952AF /* zkappTests.m */; };
+		75A8EFE61EA790B4009952AF /* zkappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8EFE51EA790B4009952AF /* zkappUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A8EFD71EA790B4009952AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A8EFB51EA790B4009952AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A8EFBC1EA790B4009952AF;
+			remoteInfo = zkapp;
+		};
+		75A8EFE21EA790B4009952AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A8EFB51EA790B4009952AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A8EFBC1EA790B4009952AF;
+			remoteInfo = zkapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A8EFBD1EA790B4009952AF /* zkapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zkapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A8EFC11EA790B4009952AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75A8EFC31EA790B4009952AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75A8EFC41EA790B4009952AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75A8EFC61EA790B4009952AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75A8EFC71EA790B4009952AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75A8EFCA1EA790B4009952AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75A8EFCC1EA790B4009952AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75A8EFCF1EA790B4009952AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75A8EFD11EA790B4009952AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A8EFD61EA790B4009952AF /* zkappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zkappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A8EFDA1EA790B4009952AF /* zkappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zkappTests.m; sourceTree = "<group>"; };
+		75A8EFDC1EA790B4009952AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A8EFE11EA790B4009952AF /* zkappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zkappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A8EFE51EA790B4009952AF /* zkappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zkappUITests.m; sourceTree = "<group>"; };
+		75A8EFE71EA790B4009952AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A8EFBA1EA790B4009952AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A8EFD31EA790B4009952AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A8EFDE1EA790B4009952AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A8EFB41EA790B4009952AF = {
+			isa = PBXGroup;
+			children = (
+				75A8EFBF1EA790B4009952AF /* zkapp */,
+				75A8EFD91EA790B4009952AF /* zkappTests */,
+				75A8EFE41EA790B4009952AF /* zkappUITests */,
+				75A8EFBE1EA790B4009952AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A8EFBE1EA790B4009952AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A8EFBD1EA790B4009952AF /* zkapp.app */,
+				75A8EFD61EA790B4009952AF /* zkappTests.xctest */,
+				75A8EFE11EA790B4009952AF /* zkappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A8EFBF1EA790B4009952AF /* zkapp */ = {
+			isa = PBXGroup;
+			children = (
+				75A8EFC31EA790B4009952AF /* AppDelegate.h */,
+				75A8EFC41EA790B4009952AF /* AppDelegate.m */,
+				75A8EFC61EA790B4009952AF /* ViewController.h */,
+				75A8EFC71EA790B4009952AF /* ViewController.m */,
+				75A8EFC91EA790B4009952AF /* Main.storyboard */,
+				75A8EFCC1EA790B4009952AF /* Assets.xcassets */,
+				75A8EFCE1EA790B4009952AF /* LaunchScreen.storyboard */,
+				75A8EFD11EA790B4009952AF /* Info.plist */,
+				75A8EFC01EA790B4009952AF /* Supporting Files */,
+			);
+			path = zkapp;
+			sourceTree = "<group>";
+		};
+		75A8EFC01EA790B4009952AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A8EFC11EA790B4009952AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75A8EFD91EA790B4009952AF /* zkappTests */ = {
+			isa = PBXGroup;
+			children = (
+				75A8EFDA1EA790B4009952AF /* zkappTests.m */,
+				75A8EFDC1EA790B4009952AF /* Info.plist */,
+			);
+			path = zkappTests;
+			sourceTree = "<group>";
+		};
+		75A8EFE41EA790B4009952AF /* zkappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75A8EFE51EA790B4009952AF /* zkappUITests.m */,
+				75A8EFE71EA790B4009952AF /* Info.plist */,
+			);
+			path = zkappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A8EFBC1EA790B4009952AF /* zkapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A8EFEA1EA790B4009952AF /* Build configuration list for PBXNativeTarget "zkapp" */;
+			buildPhases = (
+				75A8EFB91EA790B4009952AF /* Sources */,
+				75A8EFBA1EA790B4009952AF /* Frameworks */,
+				75A8EFBB1EA790B4009952AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zkapp;
+			productName = zkapp;
+			productReference = 75A8EFBD1EA790B4009952AF /* zkapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A8EFD51EA790B4009952AF /* zkappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A8EFED1EA790B4009952AF /* Build configuration list for PBXNativeTarget "zkappTests" */;
+			buildPhases = (
+				75A8EFD21EA790B4009952AF /* Sources */,
+				75A8EFD31EA790B4009952AF /* Frameworks */,
+				75A8EFD41EA790B4009952AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A8EFD81EA790B4009952AF /* PBXTargetDependency */,
+			);
+			name = zkappTests;
+			productName = zkappTests;
+			productReference = 75A8EFD61EA790B4009952AF /* zkappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75A8EFE01EA790B4009952AF /* zkappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A8EFF01EA790B4009952AF /* Build configuration list for PBXNativeTarget "zkappUITests" */;
+			buildPhases = (
+				75A8EFDD1EA790B4009952AF /* Sources */,
+				75A8EFDE1EA790B4009952AF /* Frameworks */,
+				75A8EFDF1EA790B4009952AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A8EFE31EA790B4009952AF /* PBXTargetDependency */,
+			);
+			name = zkappUITests;
+			productName = zkappUITests;
+			productReference = 75A8EFE11EA790B4009952AF /* zkappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A8EFB51EA790B4009952AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cocolee;
+				TargetAttributes = {
+					75A8EFBC1EA790B4009952AF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					75A8EFD51EA790B4009952AF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75A8EFBC1EA790B4009952AF;
+					};
+					75A8EFE01EA790B4009952AF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75A8EFBC1EA790B4009952AF;
+					};
+				};
+			};
+			buildConfigurationList = 75A8EFB81EA790B4009952AF /* Build configuration list for PBXProject "zkapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A8EFB41EA790B4009952AF;
+			productRefGroup = 75A8EFBE1EA790B4009952AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A8EFBC1EA790B4009952AF /* zkapp */,
+				75A8EFD51EA790B4009952AF /* zkappTests */,
+				75A8EFE01EA790B4009952AF /* zkappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A8EFBB1EA790B4009952AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A8EFD01EA790B4009952AF /* LaunchScreen.storyboard in Resources */,
+				75A8EFCD1EA790B4009952AF /* Assets.xcassets in Resources */,
+				75A8EFCB1EA790B4009952AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A8EFD41EA790B4009952AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A8EFDF1EA790B4009952AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A8EFB91EA790B4009952AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A8EFC81EA790B4009952AF /* ViewController.m in Sources */,
+				75A8EFC51EA790B4009952AF /* AppDelegate.m in Sources */,
+				75A8EFC21EA790B4009952AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A8EFD21EA790B4009952AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A8EFDB1EA790B4009952AF /* zkappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A8EFDD1EA790B4009952AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A8EFE61EA790B4009952AF /* zkappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A8EFD81EA790B4009952AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A8EFBC1EA790B4009952AF /* zkapp */;
+			targetProxy = 75A8EFD71EA790B4009952AF /* PBXContainerItemProxy */;
+		};
+		75A8EFE31EA790B4009952AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A8EFBC1EA790B4009952AF /* zkapp */;
+			targetProxy = 75A8EFE21EA790B4009952AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75A8EFC91EA790B4009952AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A8EFCA1EA790B4009952AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75A8EFCE1EA790B4009952AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A8EFCF1EA790B4009952AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75A8EFE81EA790B4009952AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75A8EFE91EA790B4009952AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A8EFEB1EA790B4009952AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zkapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COCO.zkapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75A8EFEC1EA790B4009952AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zkapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COCO.zkapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75A8EFEE1EA790B4009952AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zkappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COCO.zkappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zkapp.app/zkapp";
+			};
+			name = Debug;
+		};
+		75A8EFEF1EA790B4009952AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zkappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COCO.zkappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zkapp.app/zkapp";
+			};
+			name = Release;
+		};
+		75A8EFF11EA790B4009952AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zkappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COCO.zkappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zkapp;
+			};
+			name = Debug;
+		};
+		75A8EFF21EA790B4009952AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zkappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COCO.zkappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zkapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A8EFB81EA790B4009952AF /* Build configuration list for PBXProject "zkapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A8EFE81EA790B4009952AF /* Debug */,
+				75A8EFE91EA790B4009952AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A8EFEA1EA790B4009952AF /* Build configuration list for PBXNativeTarget "zkapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A8EFEB1EA790B4009952AF /* Debug */,
+				75A8EFEC1EA790B4009952AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75A8EFED1EA790B4009952AF /* Build configuration list for PBXNativeTarget "zkappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A8EFEE1EA790B4009952AF /* Debug */,
+				75A8EFEF1EA790B4009952AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75A8EFF01EA790B4009952AF /* Build configuration list for PBXNativeTarget "zkappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A8EFF11EA790B4009952AF /* Debug */,
+				75A8EFF21EA790B4009952AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A8EFB51EA790B4009952AF /* Project object */;
+}
