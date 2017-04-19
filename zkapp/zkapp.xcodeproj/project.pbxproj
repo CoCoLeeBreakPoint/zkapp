@@ -105,6 +105,7 @@
 				75A8EFC41EA790B4009952AF /* AppDelegate.m */,
 				75A8EFC61EA790B4009952AF /* ViewController.h */,
 				75A8EFC71EA790B4009952AF /* ViewController.m */,
+				75A8EFF31EA79672009952AF /* Main */,
 				75A8EFC91EA790B4009952AF /* Main.storyboard */,
 				75A8EFCC1EA790B4009952AF /* Assets.xcassets */,
 				75A8EFCE1EA790B4009952AF /* LaunchScreen.storyboard */,
@@ -138,6 +139,37 @@
 				75A8EFE71EA790B4009952AF /* Info.plist */,
 			);
 			path = zkappUITests;
+			sourceTree = "<group>";
+		};
+		75A8EFF31EA79672009952AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				75A8EFF41EA79672009952AF /* Controller */,
+				75A8EFF51EA79672009952AF /* Model */,
+				75A8EFF61EA79672009952AF /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		75A8EFF41EA79672009952AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75A8EFF51EA79672009952AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75A8EFF61EA79672009952AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
